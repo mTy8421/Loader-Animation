@@ -22,5 +22,15 @@
     top: calc(50% - (15px));
     left: calc(50% - (15px));
     border-radius: 50%;
-    animation: x-axis 1s;
+    animation: x-axis 1s ease-in-out alternate infinite;
 }
+
+@keyframes x-axis {
+    0%{
+        transform: translate(-60px);
+    }
+    100%{
+        transform: translate(60px);
+    }
+}
+
