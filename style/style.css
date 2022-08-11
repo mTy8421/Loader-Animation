@@ -41,11 +41,9 @@
     position: absolute;
     background: #fff;
     border-radius: 50%;
-    box-shadow: 0 0 5px #dclce3,
-                0 0 25px #dclce3,
-                0 0 50px #dclce3,
-                0 0 75px #dclce3;
-    animation: y-axis 0.5s ease-in-out 0.25s alternate infinite;
+    box-shadow: 0 0 5px #dc1ce3,
+                0 0 25px #dc1ce3,
+                0 0 50px #dc1ce3,
+                0 0 75px #dc1ce3;
+    /* animation: y-axis 0.5s ease-in-out 0.25s alternate infinite; */
 }
-
-
