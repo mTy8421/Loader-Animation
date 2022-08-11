@@ -47,3 +47,13 @@
                 0 0 75px #dc1ce3;
     animation: y-axis 0.5s ease-in-out 0.25s alternate infinite;
 }
+
+@keyframes y-axis{
+    0%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(60px);
+    }
+
+}
